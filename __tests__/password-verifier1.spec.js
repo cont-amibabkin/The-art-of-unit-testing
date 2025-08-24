@@ -59,6 +59,14 @@ describe("PasswordVerifier", () => {
       expect(errors[0]).toContain("fake reason");
     });
   });
+
+  test("verify, with no rules, throws exception", () => {
+    const verifier = makeVerifier();
+
+    expect(() => verifier.verify("any input")).toThrow(
+      /no rules configured/
+    );
+  });
 });
 
-// Using factory methods to avoid code duplication, encapsulating the state of each test
+// Using factory methods to avoid code duplication, encapsulating the state of each test. Checking for expected errors
