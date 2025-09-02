@@ -1,4 +1,4 @@
-import { PasswordVerifier, SUNDAY } from "../../src/withProvider/pwVerifier"
+import { PasswordVerifier, SUNDAY } from "../../../src/stubs/withProvider/pwVerifier"
 
 function FakeTimeProvider(fakeDay) {
   this.getDay = function() {
