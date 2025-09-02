@@ -1,6 +1,6 @@
 import { PasswordVerifier, SUNDAY, MONDAY } from "../src/pwVerifierConstructor";
 
-describe("verifyPassword class with implementation via constructor", () => {
+describe("PasswordVerifier class with implementation via constructor", () => {
   const makeVerifier = (rules, dayFn) => {
     return new PasswordVerifier(rules, dayFn);
   };

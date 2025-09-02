@@ -26,3 +26,5 @@ export class PasswordVerifier {
     return this.rules;
   }
 }
+
+// constructor injection of dependency
