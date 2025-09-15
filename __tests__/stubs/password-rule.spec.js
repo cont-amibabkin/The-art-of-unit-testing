@@ -1,4 +1,4 @@
-import { oneUpperCaseRule } from "../src/pwRule";
+import { oneUpperCaseRule } from "../../src/stubs/pwRule";
 
 describe("one uppercase rule", () => {
   test("given no uppercase, it fails", () => {

@@ -1,4 +1,4 @@
-import { PasswordVerifier } from "../src/pwVerifierClass";
+import { PasswordVerifier } from "../../src/stubs/pwVerifierClass";
 
 const makeVerifier = () => new PasswordVerifier();
 const passingRule = (input) => ({ passed: true, reason: "" });

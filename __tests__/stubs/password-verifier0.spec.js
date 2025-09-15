@@ -1,4 +1,4 @@
-import { verifyPassword } from "../src/pwVerifier";
+import { verifyPassword } from "../../src/stubs/pwVerifier";
 
 test("verifyPassword, given a failing rule, returns error", () => {
   const fakeRule = (input) => ({ passed: false, reason: "fake reason" });

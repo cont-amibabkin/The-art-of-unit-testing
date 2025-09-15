@@ -1,4 +1,4 @@
-import { PasswordVerifier, SUNDAY, MONDAY } from "../src/pwVerifierConstructor";
+import { PasswordVerifier, SUNDAY, MONDAY } from "../../src/stubs/pwVerifierConstructor";
 
 describe("PasswordVerifier class with implementation via constructor", () => {
   const makeVerifier = (rules, dayFn) => {

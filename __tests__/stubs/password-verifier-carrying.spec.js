@@ -1,4 +1,4 @@
-import { makeVerifier, SUNDAY } from "../src/pwVerifierCarrying";
+import { makeVerifier, SUNDAY } from "../../src/stubs/pwVerifierCarrying";
 
 describe("verifyPasswordCarrying", () => {
   test("factory method: on weekends, throws exceptions", () => {

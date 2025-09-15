@@ -1,4 +1,4 @@
-import { verifyPasswordInject, inject } from "../src/pwVerifierInject";
+import { verifyPasswordInject, inject } from "../../src/stubs/pwVerifierInject";
 
 const SUNDAY = 0;
 const SATURDAY = 6;
